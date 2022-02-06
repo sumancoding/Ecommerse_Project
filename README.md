@@ -1,3 +1,4 @@
+In case of ennet not working, try to change javaScript to JavaScript React
 We're creating a eccomerce website.
 We'll first create routws that'll be in the home page
 
