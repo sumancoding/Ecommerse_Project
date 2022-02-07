@@ -12,8 +12,11 @@ function NavBar() {
             <Typography variant='h5' component='div' sx={{flexGrow:1}}>
           Suman's Ecommerce
             </Typography>
-            <Button component={NavLink} to='/' style={({isActive}) => {return{backgroundColor: isActive ? 'blue' : ''}}} sx={{color: 'white'}}> Home </Button> {/* NavLink is inbuilt */}
-            <Button component={NavLink} to='/contact' style={({isActive}) => {return{backgroundColor: isActive ? 'blue' : ''}}} sx={{color: 'white'}}> Contact </Button>
+            <Button component={NavLink} to='/' style={({isActive}) => {return{backgroundColor: isActive ? 'blue' : ''}}} sx={{color: 'white', textTransform: 'none'}}> Home </Button> {/* NavLink is inbuilt */}
+            <Button component={NavLink} to='/contact' style={({isActive}) => {return{backgroundColor: isActive ? 'blue' : ''}}} sx={{color: 'white', textTransform: 'none'}}> Contact </Button>
+          {/* style function here is used to highlight which is active  */}
+<Button component={NavLink} to='/login' style={({isActive}) => {return{backgroundColor: isActive ? 'blue' : ''}}} sx={{color: 'white', textTransform: 'none'}}> Login/ Registration </Button>
+
           </Toolbar>
         </AppBar>
 

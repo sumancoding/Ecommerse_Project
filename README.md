@@ -6,6 +6,8 @@ Installation used:
 React router dom npm install react-router-dom
 Mui package dependecies and icons
 
+Images were abstracted from undraw.co
+
 <!-- JSON server can be installed globally with the command npm install -g json-server. To perform global installation, administrator privileges are required.
 
 Global installation is not necessary, however, since we can start json-server by using the command npx:
