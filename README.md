@@ -1,12 +1,12 @@
 In case of ennet not working, try to change javaScript to JavaScript React
 We're creating a authentication with a Dashboard in one of the dummy ecommerce website. We have basic navigation routes for home, contact and Login/Registration.
-The entire work has been created in Login/Registration Tab
-A User can login or Register
-Since only front end part has been done data have been consoled only, backend is not used for this project
-Customer can register or the login, this directs to dashboard where nformation can be edited 
+The entire work has been created in Login/Registration Tab.
+A User can login or Register.
+Since only front end part has been done data have been consoled only, backend is not used for this project.
+Customer can register or the login, this directs to dashboard where nformation can be edited .
 validations has been used so that nothing wrong info doen't passes through
-Alert tab from MUI has been used to signify success/failure
-state has been managed by FormData and Data accessed by get method
+Alert tab from MUI has been used to signify success/failure.
+State has been managed by FormData and Data accessed by get method.
 Functional validation, authentication with Dashboard is the key outcome of this project 
 
 
